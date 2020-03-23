@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    alipay_sdk (0.1.0)
+      faraday
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (1.0.0)
+      multipart-post (>= 1.2, < 3)
+    multipart-post (2.1.1)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  alipay_sdk!
+  bundler (~> 1.17)
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.2
